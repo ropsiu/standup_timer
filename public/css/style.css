@@ -1,0 +1,5 @@
+body,body.green{background-color:#0a0;color: #ddd;}
+body.red{background-color:#a00;color: #ddd;}
+body.orange{background-color:#c40;color: #ddd;}
+body.yellow{background-color:#990;color: #ddd;}
+#content{margin-top:15%;font-size: 20em;font-weight:bolder;}

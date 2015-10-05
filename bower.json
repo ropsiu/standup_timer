@@ -1,0 +1,26 @@
+{
+  "name": "jing",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/!(variables).less", "dist/fonts/*", "dist/js/*", "dist/css/*"
+      ]
+    },
+	"jquery": {
+		"main": [
+			"dist/*"
+		]
+	}
+    }
+}
